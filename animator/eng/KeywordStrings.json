@@ -1,5 +1,11 @@
 
 {
+	"Afterlife":
+	{
+	  "DESCRIPTION": "You may play cards with #yAfterlife from your #yExhaust pile by #yPurging #b1 random #yNon-Afterlife card from your #yExhaust pile.",
+	  "NAMES": ["afterlife"],
+	  "PROPER_NAME": "Afterlife"
+	},
 	"Cooldown":
 	{
 		"DESCRIPTION": "Whenever you play or discard this card, reduce its #yCooldown by #b1. If it is at #b0, activate this effect instead.",
@@ -18,6 +24,12 @@
 		"NAMES": ["motivate"],
 		"PROPER_NAME": "Motivate"
 	},
+	"Phasing":
+	{
+	  "DESCRIPTION": "You have a 35% chance to dodge each attack. Reduce this number by 5% each turn. Stacking this power resets the chance to dodge and increases it by 5% (up to 50%).",
+	  "NAMES": ["phasing"],
+	  "PROPER_NAME": "Phasing"
+	},
 	"Reload":
 	{
 		"DESCRIPTION": "Discard any number of cards, activate this effect that many times.",
@@ -35,6 +47,12 @@
 		"DESCRIPTION": "#ySynergizes with other #ySpellcasters.",
 		"NAMES": ["spellcaster"],
 		"PROPER_NAME": "Spellcaster"
+	},
+	"Synergy Bonus":
+	{
+		"DESCRIPTION": "The number of times you Synergized this turn.",
+		"NAMES": ["synergy bonus"],
+		"PROPER_NAME": "Synergy Bonus"
 	},
 	"Support Damage":
 	{

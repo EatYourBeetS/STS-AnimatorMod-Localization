@@ -48,7 +48,13 @@
 			"Rewrite",
 			"Date-a-Live",
 			"Angel Beats",
-			"Rozen Maiden"
+			"Rozen Maiden",
+		  	"Log Horizon",
+		    "Vocaloid",
+		  	"Atelier",
+		  	"Cardcaptor Sakura",
+		  	"Guilty Crown",
+		  	"Gakkou Gurashi!"
 		],
 		"EXTRA_TEXT":
 		[
@@ -116,7 +122,9 @@
 			"Cursed Relic",
 			"Banish",
 			"+{0} Max HP",
-			"+{0} Gold"
+			"+{0} Gold",
+		    "Upgrade a Card",
+		  	"Allows you to upgrade a card in your deck permanently."
 		]
 	},
 
@@ -158,6 +166,15 @@
 			"Have you found a missing or incorrect translation? If you'd like to help, you can join the mod Discord and write your translation in the Localization channel.",
 			"Display Beta Series",
 			"Translation"
+		]
+	},
+	"animator:CardMods":
+	{
+		"TEXT":
+		[
+			"",
+			"",
+			"I do not have a non-Afterlife card in my exhaust pile to purge."
 		]
 	}
 }
