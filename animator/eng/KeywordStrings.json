@@ -26,9 +26,9 @@
 	},
 	"Phasing":
 	{
-	  "DESCRIPTION": "You have a 35% chance to dodge each attack. Reduce this number by 5% each turn. Stacking this power resets the chance to dodge and increases it by 5% (up to 50%).",
-	  "NAMES": ["phasing"],
-	  "PROPER_NAME": "Phasing"
+		"DESCRIPTION": "You have a 35% chance to dodge each attack. Reduce this chance by 5% each turn. Stacking this power resets and delays the chance reduction by 1 turn.",
+		"NAMES": ["phasing"],
+		"PROPER_NAME": "Phasing"
 	},
 	"Reload":
 	{
