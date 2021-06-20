@@ -48,6 +48,12 @@
 		"NAMES": ["choked"],
 		"PROPER_NAME": "Choked"
 	},
+	"Common Debuff":
+	{
+		"DESCRIPTION": "#yPoison, #yWeak, #yVulnerable, #yBurning, #yShackles.",
+		"NAMES": ["common debuff", "common debuffs"],
+		"PROPER_NAME": "Common Debuff"
+	},
 	"Constricted":
 	{
 		"DESCRIPTION": "Take damage at the end of each turn.",
@@ -68,7 +74,7 @@
 	},
 	"Earth":
 	{
-		"DESCRIPTION": "Orb: Gain temporary #yThorns while #yChanneled. It is automatically #yEvoked after 3 turns and deals damage split randomly amongst ALL enemies.",
+		"DESCRIPTION": "Orb: Gain temporary #yThorns while #yChanneled. Atomatically #yEvoked after 3 turns, dealing damage split randomly amongst ALL enemies.",
 		"NAMES": ["earth", "earth+"],
 		"PROPER_NAME": "Earth"
 	},
@@ -86,7 +92,7 @@
 	},
 	"Fire":
 	{
-		"DESCRIPTION": "Orb: Apply #yBurning and damage the highest health enemy.",
+		"DESCRIPTION": "Orb: Applies #yBurning and damages the highest health enemy.",
 		"NAMES": ["fire", "fire+"],
 		"PROPER_NAME": "Fire"
 	},
