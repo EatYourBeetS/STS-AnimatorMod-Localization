@@ -1,9 +1,15 @@
 
 {
-	"unnamed:InfinitePower":
+	"unnamed:Incomplete":
 	{
-		"DESCRIPTIONS": ["Start each combat with #b{0} #yTemporary #yHP. When you obtain a card, heal #b{1} HP."],
-		"FLAVOR": "Infinite Power! At a cost...",
-		"NAME": "Infinite Power"
+		"DESCRIPTIONS": ["At the start of combat, gain [E] and draw #b1 card."],
+		"FLAVOR": "Something is missing...",
+		"NAME": "Incomplete"
+	},
+	"unnamed:DimCandles":
+	{
+		"DESCRIPTIONS": ["Once per turn, when you play a #ySummon card, gain [E] and #b{0} [SK]."],
+		"FLAVOR": "They are melting at an imperceptible rate.",
+		"NAME": "Dim Candles"
 	}
 }

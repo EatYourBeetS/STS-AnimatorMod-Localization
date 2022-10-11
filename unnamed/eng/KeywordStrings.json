@@ -1,39 +1,63 @@
 
 {
-	"Echo":
+	"Activate":
 	{
-		"DESCRIPTION": "If you play two cards with #yEcho in a row, increase your #yResonance by #b1.",
-		"NAMES": ["echo"],
-		"PROPER_NAME": "Echo"
+		"DESCRIPTION": "Execute the current intent. #yDolls are #yActivated at the end of turn, or manually through other effects.",
+		"NAMES": ["activate", "activates", "activated"],
+		"PROPER_NAME": "Activate"
 	},
-	"Fate":
+	"Amplification":
 	{
-		"DESCRIPTION": "This effect triggers at the start of each turn while this card is in your #yVoid.",
-		"NAMES": ["fate"],
-		"PROPER_NAME": "fate"
+		"DESCRIPTION": "Increase incoming #yAttack damage by #b1% per stack of [Amplification], rounded up.",
+		"NAMES": ["amplification"],
+		"PROPER_NAME": "Amplification"
 	},
-	"Resonance":
+	"Mark":
 	{
-		"DESCRIPTION": "Increases your #yAttack damage. Reduced by #b1 at the start of your turn.",
-		"NAMES": ["resonance", "resonances"],
-		"PROPER_NAME": "Resonance"
+		"DESCRIPTION": "#yDolls prioritize the latest #yMarked enemy. Ignores [Artifact].",
+		"NAMES": ["mark", "marked"],
+		"PROPER_NAME": "Mark"
 	},
-	"SoundWave":
+	"Sacrifice":
 	{
-		"DESCRIPTION": "#y0-cost #yAttack card with #yEcho.",
-		"NAMES": ["sound wave", "sound_wave", "sound waves", "sound_waves"],
-		"PROPER_NAME": "Sound Wave"
+		"DESCRIPTION": "Destroy #b1 #yDoll, triggering its death effect.",
+		"NAMES": ["sacrifice"],
+		"PROPER_NAME": "Sacrifice"
 	},
-	"Void":
+	"Solo":
 	{
-		"DESCRIPTION": "A part of your #yExhaust pile which only contains #yVoidbound cards.",
-		"NAMES": ["void"],
-		"PROPER_NAME": "Void"
+		"DESCRIPTION": "Activates if you have no #yDolls.",
+		"NAMES": ["solo"],
+		"PROPER_NAME": "Solo"
 	},
-	"Voidbound":
+	"Attachment":
 	{
-		"DESCRIPTION": "Enters your #yVoid when it is #yExhausted or played. This card has #rno #reffect until it has entered your #yVoid at least once.",
-		"NAMES": ["voidbound"],
-		"PROPER_NAME": "Voidbound"
+		"DESCRIPTION": "Apply a persistent effect to a #yDoll. If it dies, move all #yAttached cards from your #yExhaust pile to your discard pile.",
+		"NAMES": ["attach", "attached", "attachment", "attachments"],
+		"PROPER_NAME": "Attachment"
+	},
+	"Summon":
+	{
+		"DESCRIPTION": "You can #ySummon up to #b4 #yDolls (If full, raise the max [HP] of all #yDolls instead). Once per turn, you can #pRight-Click on them to change their intent.",
+		"NAMES": ["summon", "summoned"],
+		"PROPER_NAME": "Summon"
+	},
+	"Summoning Sickness":
+	{
+		"DESCRIPTION": "You can't #ySummon new #yDolls. Whenever you play a card, decrease [SK] by #b1.",
+		"NAMES": ["summoning sickness"],
+		"PROPER_NAME": "Summoning Sickness"
+	},
+	"Unnamed Doll":
+	{
+		"DESCRIPTION": "#yAttack: Damages a random enemy, prioritizing enemies with #yDebuffs. NL #yDefend: Grants [Block], receives all incoming unblocked #yAttack damage. NL #yOn #yDeath: Allies gain #b1 [Strength].",
+		"NAMES": ["unnamed doll", "doll", "dolls"],
+		"PROPER_NAME": "Unnamed Doll"
+	},
+	"Withering":
+	{
+		"DESCRIPTION": "Reduce #yAttack damage by #b1% per stack of [Withering] (Max #b60%^). Reduce stacks of [Withering] by #b25% each turn.",
+		"NAMES": ["withering"],
+		"PROPER_NAME": "Withering"
 	}
 }
